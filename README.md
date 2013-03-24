@@ -31,7 +31,11 @@ Hacking
         $ cd shoes4
         $ gem install bundler && bundle install
 
-4. You're ready to go!
+4. Run the specs to make sure everything works
+
+        $ rake spec
+
+5. You're ready to go!
 
 ### Windows
 
@@ -56,7 +60,11 @@ Hacking
         C:\tmp\shoes4>jruby --1.9 -S gem install bundler
         C:\tmp\shoes4>jruby --1.9 -S bundle install
 
-4. You're ready to go!
+4. Run the specs to make sure everything is in order
+
+        C:\tmp\shoes4>jruby -S rake spec
+
+5. You're ready to go!
 
 Refer to the [RubyInstaller DevKit](https://github.com/oneclick/rubyinstaller/wiki/Development-Kit) if you are having issues building native gems. You might be forced to download and install [MinGW](http://www.mingw.org/) if your system is missing GCC or make.
 
